@@ -1,0 +1,142 @@
+* {
+	/*box-sizing: border-box;*/
+}
+
+body {
+	margin: 15px;
+	margin-top: 0px;
+	border: 2px solid gold;
+	padding: 5px;
+	background: silver;
+}
+
+.body_div {
+	background: lightgrey;
+	padding: 25px;
+	padding-top: 0px;
+	margin: 0px;
+}
+
+#head {
+	display: block;
+	text-transform: top;
+	background: gold;
+	padding: 20px;
+	font-size: 15pt;
+	word-spacing: 2px;
+	letter-spacing: 1px;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	width: 87%;
+}
+
+#badge {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background: gold;
+}
+
+.nav_bar {
+	margin-top: 134px;
+	position: fixed;
+	left: 0px;
+	right: 0px;
+}
+
+.nav_bar a {
+	text-decoration: none;
+	color: black;
+	display: block;
+}
+
+.nav_bar > ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.nav_bar > ul > li > a {
+	padding: 10px;
+	background: grey;
+}
+
+.nav_bar > ul > li > a:hover {
+	background: #173459;
+	color: white;
+}
+
+.nav_bar .active {
+	background: #173459;
+	color: white;
+}
+
+.nav_bar > ul > li {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+}
+
+.body_div2 {
+	padding-top: 157px;
+}
+
+#motto {
+	/*text-align: center;*/
+	border: 1px solid gold;
+	background: silver;
+	position: fixed;
+	bottom: 0px;
+	right: 16px;
+	
+	z-index: 5;
+}
+
+h1 + p{
+	text-align: center;
+}
+
+img {
+	float: right;
+	border: dotted gold;
+	padding: 2px;
+}
+
+h5 {
+	color: darkred;
+}
+
+.video {
+	/*position: relative;*/
+	left: 12%;
+	right: 200px;
+	border: solid darkblue;
+	padding: 30px;
+	text-align: center;
+	text-transform: behind;
+	position: center;
+}
+
+.admin, .offices {
+	text-align: center;
+	line-height: 25px;
+	padding-bottom:10px;
+}
+
+.admin > ul {
+	list-style-type: none;
+}
+
+.offices > dl {
+	list-style-type: none;
+}
+
+.offices .dtitle{
+	color: gold;
+}
+
+.admin_offices {
+	background: #173459;
+	color: white;
+}
